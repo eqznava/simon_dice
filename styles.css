@@ -1,0 +1,103 @@
+/*El estyle deberia tener su propio archivo*/
+
+body {
+    margin: 0;
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+}
+
+
+/*Aqui se crea el tablero del juego*/
+
+.gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+}
+
+
+/*Aqui inicia ala asignacion de colores y destellos*/
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.celeste {
+    background: #22a6b3;
+}
+
+.celeste.light {
+    background: #7ed6df;
+}
+
+.violeta {
+    background: #be2edd;
+}
+
+.violeta.light {
+    background: #e056fd;
+}
+
+.naranja {
+    background: #f0932b;
+}
+
+.naranja.light {
+    background: #ffbe76;
+}
+
+.verde {
+    background: #6ab04c;
+}
+
+.verde.light {
+    background: #badc58;
+}
+
+
+/*Aqui termina la asignacion de colores y destellos*/
+
+
+/*Asignacion de estilos a el boton*/
+
+.btn-start {
+    width: 400px;
+    height: 100px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+}
+
+
+/*Esto sirve para quitar el boton de empezar hide = esconder*/
+
+.hide {
+    display: none;
+}
+
+
+/*Esto le asigna un tipo de letra a todo el documento*/
+
+* {
+    font-family: sans-serif;
+}
